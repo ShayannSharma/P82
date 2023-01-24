@@ -1,11 +1,11 @@
 canvas.addEventListener("mousedown", my_mousedown);
 
-function my_mousedown (e)
+function my_mousedown (e){
 
 color = document.getElementById("color").value;
 width_of_line = document.getElementById("width_of_line").value
 
-mouseEvent = "mouseDown";
+mouseEvent = "mouseDown";}
 
 canvas.addEventListener("mouse leave", my_mouseleave);
 function my_mouseleave(e)
